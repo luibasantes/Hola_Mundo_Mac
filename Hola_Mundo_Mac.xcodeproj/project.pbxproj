@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04628B3D20EC21CC00302279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04628B3C20EC21CC00302279 /* AppDelegate.swift */; };
+		04628B3F20EC21CC00302279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04628B3E20EC21CC00302279 /* ViewController.swift */; };
+		04628B4220EC21CC00302279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04628B4020EC21CC00302279 /* Main.storyboard */; };
+		04628B4420EC21CC00302279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04628B4320EC21CC00302279 /* Assets.xcassets */; };
+		04628B4720EC21CC00302279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04628B4520EC21CC00302279 /* LaunchScreen.storyboard */; };
+		04628B5220EC21CC00302279 /* Hola_Mundo_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04628B5120EC21CC00302279 /* Hola_Mundo_MacTests.swift */; };
+		04628B5D20EC21CC00302279 /* Hola_Mundo_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04628B5C20EC21CC00302279 /* Hola_Mundo_MacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04628B4E20EC21CC00302279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04628B3120EC21CB00302279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04628B3820EC21CB00302279;
+			remoteInfo = Hola_Mundo_Mac;
+		};
+		04628B5920EC21CC00302279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04628B3120EC21CB00302279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04628B3820EC21CB00302279;
+			remoteInfo = Hola_Mundo_Mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04628B3920EC21CC00302279 /* Hola_Mundo_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hola_Mundo_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04628B3C20EC21CC00302279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04628B3E20EC21CC00302279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04628B4120EC21CC00302279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04628B4320EC21CC00302279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04628B4620EC21CC00302279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04628B4820EC21CC00302279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04628B4D20EC21CC00302279 /* Hola_Mundo_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hola_Mundo_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04628B5120EC21CC00302279 /* Hola_Mundo_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hola_Mundo_MacTests.swift; sourceTree = "<group>"; };
+		04628B5320EC21CC00302279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04628B5820EC21CC00302279 /* Hola_Mundo_MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hola_Mundo_MacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04628B5C20EC21CC00302279 /* Hola_Mundo_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hola_Mundo_MacUITests.swift; sourceTree = "<group>"; };
+		04628B5E20EC21CC00302279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04628B3620EC21CB00302279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04628B4A20EC21CC00302279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04628B5520EC21CC00302279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04628B3020EC21CB00302279 = {
+			isa = PBXGroup;
+			children = (
+				04628B3B20EC21CC00302279 /* Hola_Mundo_Mac */,
+				04628B5020EC21CC00302279 /* Hola_Mundo_MacTests */,
+				04628B5B20EC21CC00302279 /* Hola_Mundo_MacUITests */,
+				04628B3A20EC21CC00302279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04628B3A20EC21CC00302279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04628B3920EC21CC00302279 /* Hola_Mundo_Mac.app */,
+				04628B4D20EC21CC00302279 /* Hola_Mundo_MacTests.xctest */,
+				04628B5820EC21CC00302279 /* Hola_Mundo_MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04628B3B20EC21CC00302279 /* Hola_Mundo_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				04628B3C20EC21CC00302279 /* AppDelegate.swift */,
+				04628B3E20EC21CC00302279 /* ViewController.swift */,
+				04628B4020EC21CC00302279 /* Main.storyboard */,
+				04628B4320EC21CC00302279 /* Assets.xcassets */,
+				04628B4520EC21CC00302279 /* LaunchScreen.storyboard */,
+				04628B4820EC21CC00302279 /* Info.plist */,
+			);
+			path = Hola_Mundo_Mac;
+			sourceTree = "<group>";
+		};
+		04628B5020EC21CC00302279 /* Hola_Mundo_MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				04628B5120EC21CC00302279 /* Hola_Mundo_MacTests.swift */,
+				04628B5320EC21CC00302279 /* Info.plist */,
+			);
+			path = Hola_Mundo_MacTests;
+			sourceTree = "<group>";
+		};
+		04628B5B20EC21CC00302279 /* Hola_Mundo_MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04628B5C20EC21CC00302279 /* Hola_Mundo_MacUITests.swift */,
+				04628B5E20EC21CC00302279 /* Info.plist */,
+			);
+			path = Hola_Mundo_MacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04628B3820EC21CB00302279 /* Hola_Mundo_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04628B6120EC21CC00302279 /* Build configuration list for PBXNativeTarget "Hola_Mundo_Mac" */;
+			buildPhases = (
+				04628B3520EC21CB00302279 /* Sources */,
+				04628B3620EC21CB00302279 /* Frameworks */,
+				04628B3720EC21CB00302279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hola_Mundo_Mac;
+			productName = Hola_Mundo_Mac;
+			productReference = 04628B3920EC21CC00302279 /* Hola_Mundo_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04628B4C20EC21CC00302279 /* Hola_Mundo_MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04628B6420EC21CC00302279 /* Build configuration list for PBXNativeTarget "Hola_Mundo_MacTests" */;
+			buildPhases = (
+				04628B4920EC21CC00302279 /* Sources */,
+				04628B4A20EC21CC00302279 /* Frameworks */,
+				04628B4B20EC21CC00302279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04628B4F20EC21CC00302279 /* PBXTargetDependency */,
+			);
+			name = Hola_Mundo_MacTests;
+			productName = Hola_Mundo_MacTests;
+			productReference = 04628B4D20EC21CC00302279 /* Hola_Mundo_MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04628B5720EC21CC00302279 /* Hola_Mundo_MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04628B6720EC21CC00302279 /* Build configuration list for PBXNativeTarget "Hola_Mundo_MacUITests" */;
+			buildPhases = (
+				04628B5420EC21CC00302279 /* Sources */,
+				04628B5520EC21CC00302279 /* Frameworks */,
+				04628B5620EC21CC00302279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04628B5A20EC21CC00302279 /* PBXTargetDependency */,
+			);
+			name = Hola_Mundo_MacUITests;
+			productName = Hola_Mundo_MacUITests;
+			productReference = 04628B5820EC21CC00302279 /* Hola_Mundo_MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04628B3120EC21CB00302279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luigi Basantes";
+				TargetAttributes = {
+					04628B3820EC21CB00302279 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					04628B4C20EC21CC00302279 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04628B3820EC21CB00302279;
+					};
+					04628B5720EC21CC00302279 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04628B3820EC21CB00302279;
+					};
+				};
+			};
+			buildConfigurationList = 04628B3420EC21CB00302279 /* Build configuration list for PBXProject "Hola_Mundo_Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04628B3020EC21CB00302279;
+			productRefGroup = 04628B3A20EC21CC00302279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04628B3820EC21CB00302279 /* Hola_Mundo_Mac */,
+				04628B4C20EC21CC00302279 /* Hola_Mundo_MacTests */,
+				04628B5720EC21CC00302279 /* Hola_Mundo_MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04628B3720EC21CB00302279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04628B4720EC21CC00302279 /* LaunchScreen.storyboard in Resources */,
+				04628B4420EC21CC00302279 /* Assets.xcassets in Resources */,
+				04628B4220EC21CC00302279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04628B4B20EC21CC00302279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04628B5620EC21CC00302279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04628B3520EC21CB00302279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04628B3F20EC21CC00302279 /* ViewController.swift in Sources */,
+				04628B3D20EC21CC00302279 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04628B4920EC21CC00302279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04628B5220EC21CC00302279 /* Hola_Mundo_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04628B5420EC21CC00302279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04628B5D20EC21CC00302279 /* Hola_Mundo_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04628B4F20EC21CC00302279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04628B3820EC21CB00302279 /* Hola_Mundo_Mac */;
+			targetProxy = 04628B4E20EC21CC00302279 /* PBXContainerItemProxy */;
+		};
+		04628B5A20EC21CC00302279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04628B3820EC21CB00302279 /* Hola_Mundo_Mac */;
+			targetProxy = 04628B5920EC21CC00302279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04628B4020EC21CC00302279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04628B4120EC21CC00302279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04628B4520EC21CC00302279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04628B4620EC21CC00302279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04628B5F20EC21CC00302279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04628B6020EC21CC00302279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04628B6220EC21CC00302279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hola_Mundo_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiraiProjects.Hola-Mundo-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04628B6320EC21CC00302279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hola_Mundo_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiraiProjects.Hola-Mundo-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04628B6520EC21CC00302279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hola_Mundo_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiraiProjects.Hola-Mundo-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hola_Mundo_Mac.app/Hola_Mundo_Mac";
+			};
+			name = Debug;
+		};
+		04628B6620EC21CC00302279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hola_Mundo_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiraiProjects.Hola-Mundo-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hola_Mundo_Mac.app/Hola_Mundo_Mac";
+			};
+			name = Release;
+		};
+		04628B6820EC21CC00302279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Hola_Mundo_MacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiraiProjects.Hola-Mundo-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hola_Mundo_Mac;
+			};
+			name = Debug;
+		};
+		04628B6920EC21CC00302279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Hola_Mundo_MacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiraiProjects.Hola-Mundo-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hola_Mundo_Mac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04628B3420EC21CB00302279 /* Build configuration list for PBXProject "Hola_Mundo_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04628B5F20EC21CC00302279 /* Debug */,
+				04628B6020EC21CC00302279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04628B6120EC21CC00302279 /* Build configuration list for PBXNativeTarget "Hola_Mundo_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04628B6220EC21CC00302279 /* Debug */,
+				04628B6320EC21CC00302279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04628B6420EC21CC00302279 /* Build configuration list for PBXNativeTarget "Hola_Mundo_MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04628B6520EC21CC00302279 /* Debug */,
+				04628B6620EC21CC00302279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04628B6720EC21CC00302279 /* Build configuration list for PBXNativeTarget "Hola_Mundo_MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04628B6820EC21CC00302279 /* Debug */,
+				04628B6920EC21CC00302279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04628B3120EC21CB00302279 /* Project object */;
+}
